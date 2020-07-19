@@ -7,9 +7,13 @@ export async function getAllUsers() {
 
 export async function createUser(data) {
     const response = await fetch(`/api/user`, {
+        mode: 'cors',
         method: 'POST',
-        headers: {'Content-Type': 'application/json'},
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json', 'Access-Control-Allow-Origin':'*'
+        },
         body: JSON.stringify({user: data})
       })
-    return await response.json();
+    return await response.json("done");
 }
