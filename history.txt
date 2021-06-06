@@ -1,0 +1,1000 @@
+ 1134  cd /home/nandha
+ 1135  ls
+ 1136  id nandha
+ 1137  su - nandha
+ 1138  exit
+ 1139  cd /home/nandha
+ 1140  ls -l
+ 1141  ls -la
+ 1142  vim .bashrc
+ 1143  su - nandha -t a tony
+ 1144  passwd nandha
+ 1145  exit
+ 1146  w
+ 1147  su - nandha
+ 1148  clear
+ 1149  tmux ls
+ 1150  tmux a -t root
+ 1151  tmux kill-session -t root
+ 1152  tmux ls
+ 1153  tmux a -t config
+ 1154  w
+ 1155  tmux a -t config
+ 1156  su - nandha
+ 1157  exit
+ 1158  su - nandha
+ 1159  passwd nandha
+ 1160  usermod -aG sudo nandha
+ 1161  conda deactivate
+ 1162  job
+ 1163  sjobs
+ 1164  jobs
+ 1165  clear
+ 1166  cd repos
+ 1167  ls
+ 1168  vim test.git
+ 1169  cd test.git
+ 1170  ls
+ 1171  ls -la
+ 1172  cd ..
+ 1173  rm test.git
+ 1174  rm -rf test.git
+ 1175  ls
+ 1176  cd testing
+ 1177  ls
+ 1178  ls -la
+ 1179  vim .git/config
+ 1180  cd ..
+ 1181  rm -rf testing
+ 1182  cd update-test
+ 1183  ls
+ 1184  ls -la
+ 1185  /etc/passwd
+ 1186  cat /etc/passwd
+ 1187  passwd cultasset
+ 1188  su - cultasset
+ 1189  usermod -aG cultasset
+ 1190  usermod -aG sudo cultasset
+ 1191  su - cultasset
+ 1192  cat /etc/passwd
+ 1193  su - udaya
+ 1194  passwd udaya
+ 1195  su - udaya
+ 1196  cat /etc/passwd
+ 1197  rusermod -ag sudo udaya
+ 1198  usermod -aG sudo udaya
+ 1199  passwd udaya
+ 1200  exit
+ 1201  clear
+ 1202  conda deactivate
+ 1203  pwd
+ 1204  ls
+ 1205  history
+ 1206  ps aux | grep udaya
+ 1207  ps -u udaya
+ 1208  usermod -l udaya dev
+ 1209  passwd nandha
+ 1210  su nandha
+ 1211  su - nandha
+ 1212  w
+ 1213  exit
+ 1214  cd /root
+ 1215  conda deactivate
+ 1216  su - nandha
+ 1217  exit
+ 1218  cat /etc/passwd
+ 1219  su - udaya
+ 1220  passwd udaya
+ 1221  su - udaya
+ 1222  cat /etc/passwd
+ 1223  ls /home/ajay/
+ 1224  ls -la /home/ajay
+ 1225  ls -la /home/ajay | less
+ 1226  locate ".docker"
+ 1227  su - udaya
+ 1228  cat /etc/passwd
+ 1229  su - nandha
+ 1230  su - ajay
+ 1231  docker information
+ 1232  docker version
+ 1233  docker run hello-world
+ 1234  conda deactivate
+ 1235  cd repos/
+ 1236  ls
+ 1237  cd ../downloads/lightupMay/
+ 1238  ls
+ 1239  cd ..
+ 1240  su - pawan
+ 1241  exit
+ 1242  su - pawan
+ 1243  su - nandha
+ 1244  passwd nandha
+ 1245  conda deactivate
+ 1246  ls
+ 1247  cd downloads
+ 1248  ls
+ 1249  cd lightupMay
+ 1250  ls
+ 1251  cd ...
+ 1252  cd ..
+ 1253  cd downloads
+ 1254  ls
+ 1255  cd ..
+ 1256  ls
+ 1257  cd ../repos
+ 1258  ls
+ 1259  cd olora-pawan
+ 1260  ls
+ 1261  ls -la
+ 1262  exit
+ 1263  conda deactivate
+ 1264  ls
+ 1265  cd downloads
+ 1266  ls
+ 1267  cd /cat/
+ 1268  cd /cat
+ 1269  cd /etc
+ 1270  ls
+ 1271  cd nginx
+ 1272  ls
+ 1273  cat sites-available
+ 1274  cd sites-available/
+ 1275  ls
+ 1276  cat olora.com
+ 1277  cd ~
+ 1278  ls
+ 1279  cd downloads
+ 1280  ls
+ 1281  history | less
+ 1282  cd /home/lightup
+ 1283  ls
+ 1284  cd downlaods
+ 1285  cd downloads/
+ 1286  ls
+ 1287  cd ../repos/
+ 1288  ls
+ 1289  cd olora-pawan
+ 1290  ls
+ 1291  cd sandbox
+ 1292  usermod -g django-integration nandha
+ 1293  usermod -g django-integration lightup
+ 1294  cd /home/lightup/repos/olora-pawan/
+ 1295  chown -R nandha:django-integration * .[^.]*
+ 1296  #this is not
+ 1297  clear
+ 1298  # this is 3 g in size
+ 1299  # becasue it has blogs and etc... my site too
+ 1300  # all in sqlite?  postgress
+ 1301  # same server
+ 1302  pwd
+ 1303  # wait
+ 1304  # this is root
+ 1305  # the other is lightup user
+ 1306  # about 70%
+ 1307  du -sh *
+ 1308  history |grep source
+ 1309  ps aux| grep python
+ 1310  ps aux| grep python |grep nandha
+ 1311  htop
+ 1312  tmux ls
+ 1313  su - lightup
+ 1314  exit
+ 1315  tail -f /proc/11114/fd/1
+ 1316  uptime
+ 1317  whoami
+ 1318  cd ~/repos/notebook
+ 1319  lsof
+ 1320  conda activate base && cd ~/repos/notebook && vim +CtrlP
+ 1321  ls
+ 1322  cd machine
+ 1323  ls
+ 1324  cd basic
+ 1325  ls
+ 1326  vim
+ 1327  cd /root
+ 1328  top
+ 1329  cd /root/repos/SiteVenv
+ 1330  source /root/repos/SiteVenv/bin/activate && python server.py runserver 159.65.8.38:10055
+ 1331  netstat
+ 1332  tmux run-shell -t 2
+ 1333  tail -f /proc/11114/fd/1
+ 1334  guard
+ 1335  iostat -t
+ 1336  cd ~/repos/lightup/ && vim +CtrlP
+ 1337  lsof
+ 1338  tx ls
+ 1339  tx lightup
+ 1340  tx jupyter
+ 1341  clear
+ 1342  tmux a -t jupyter
+ 1343  tmux a -t lightup
+ 1344  conda deactivate
+ 1345  cd .tumx
+ 1346  ls
+ 1347  cd .tmux
+ 1348  ls
+ 1349  cd ../.config
+ 1350  ls
+ 1351  cd tmuxinator
+ 1352  ls
+ 1353  vim lightup.yml
+ 1354  su - lightup
+ 1355  conda deactivate
+ 1356  tx ls
+ 1357  tmux list
+ 1358  tmux --list
+ 1359  tmux ls
+ 1360  tmux list
+ 1361  tmux --list
+ 1362  tx list
+ 1363  tmux ls
+ 1364  tx a -t jupyter
+ 1365  tmux a -t jupyter
+ 1366  clear
+ 1367  su - nandha
+ 1368  conda deactivate
+ 1369  touch /etc/apt/sources.list
+ 1370  chmod 644 /etc/apt/sources.list
+ 1371  vim /etc/network/interfaces
+ 1372  echo "sudo apt-add-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc)-backports main universe multiverse restricted"
+ 1373  sudo apt-add-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc)-updates main universe multiverse restricted"
+ 1374  sudo apt-add-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc)-security main multiverse restricted universe"
+ 1375  sudo apt-add-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main multiverse restricted universe" > /etc/apt/sources.list
+ 1376  q
+ 1377  echo ""
+ 1378  echo "sudo apt-add-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc)-backports main universe multiverse restricted" > /etc/apt/sources.list
+ 1379  apt-get update
+ 1380  os
+ 1381  i
+ 1382  system
+ 1383  cd /etc/apt
+ 1384  ls
+ 1385  vim sources.list.save
+ 1386  vim sources.list
+ 1387  apt-get update
+ 1388  vim sources.list
+ 1389  apt-get update
+ 1390  vim sources.list
+ 1391  apt-get clean
+ 1392  cd /var/lib/apt
+ 1393  ls
+ 1394  cd lists
+ 1395  ls
+ 1396  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 16126D3A3E5C1192
+ 1397  apt-get update
+ 1398  dpkg --configure -a
+ 1399  mkdir /var/lib/lists_old
+ 1400  scp -r /var/lib/lists/* /var/lib/lists_old/.
+ 1401  mv /var/lib/lists_old /var/lib/apt/.
+ 1402  scp -r /var/lib/apt/lists/* /var/lib/apt/lists_old/.
+ 1403  rm /var/lib/apt/lists/* -vf
+ 1404  apt-get update
+ 1405  cd ~
+ 1406  mkdir scratch
+ 1407  cd scratch
+ 1408  curl -o yarnpkg.gpg.pub https://dl.yarnpkg.com/debian/pubkey.gpg
+ 1409  gpg yarnpkg.gpg.pub
+ 1410  gpg /etc/apt/trsuted.gpg
+ 1411  cd /etc/apt
+ 1412  ls
+ 1413  gpg trusted.gpg
+ 1414  apt-get update
+ 1415  apt-key adv
+ 1416  curl -o- -L https://yarnpkg.com/install.sh | bash
+ 1417  apt-get update
+ 1418  Err:1 https://apt-mo.trafficmanag... yakkety InRelease
+ 1419  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 6D98490C6F1ACDDD448E45954F77679369475BAA
+ 1420  apt-get update
+ 1421  sudo apt-get upgrade
+ 1422  cd ~
+ 1423  sudo apt-get update
+ 1424  apt-get update
+ 1425  cd /var/lib/apt
+ 1426  gpg trusted.gpg
+ 1427  ls
+ 1428  cd lists
+ 1429  gpt tursted.gpg
+ 1430  gpg trusted.gpg
+ 1431  ls
+ 1432  ls -lv
+ 1433  ls -lvn
+ 1434  ls -lvg
+ 1435  ls -l
+ 1436  ls -lvrn
+ 1437  ls -lvrm
+ 1438  pwd
+ 1439  cd /etc/apt
+ 1440  ls
+ 1441  gpg trusted.gpg
+ 1442  sudo apt-get update
+ 1443  sudo apt-get install ppa-purge
+ 1444  sudo ppa-purget ppa:jnathonf/python-3.6
+ 1445  sudo ppa-purge ppa:jonathonf/python-3.6
+ 1446  sudo add-apt-repository -r ppa:tista/adapta
+ 1447  sudo apt-get update
+ 1448  cd /var/lib/apt
+ 1449  ls
+ 1450  cd lists
+ 1451  ls
+ 1452  sudo apt-get update
+ 1453  vim /etc/apt/source.d
+ 1454  vim /etc/apt/sources.d
+ 1455  cd /etc/apt
+ 1456  ls
+ 1457  vim sources.list.d
+ 1458  cd sources.list.d
+ 1459  ls
+ 1460  rm jonathonf-ubuntu-python-3_6-bionic.list
+ 1461  rm jonathonf-ubuntu-python-3_6-bionic.list.save 
+ 1462  cd ~
+ 1463  sudo apt-get update
+ 1464  cd -
+ 1465  ls
+ 1466  ping apt-mo.trafficmanager.net
+ 1467  apt-get install ca-certificates
+ 1468  apt-get install --reinstall ca-certificates
+ 1469  sudo apt-get update
+ 1470  sudo sh -c 'echo "deb [arch=amd64] http://apt-mo.trafficmanager.net/repos/dotnet-release/ xenial main" > /etc/apt/sources.list.d/dotnetdev.list'
+ 1471  sudo apt-get update
+ 1472  cd ~
+ 1473  sudo apt-get install -y apt-transport-https curl software-properities-common
+ 1474  lsb_release -a
+ 1475  release -a
+ 1476  apt-get install -y software-properties-common
+ 1477  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+ 1478  sudo apt-key fingerprint 0EBFCD88
+ 1479  sudo add-apt-repository 'deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+ 1480  $(lsb_release -cs) \
+ 1481  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+ 1482  $(lsb_release -cs) \
+ 1483  stable"
+ 1484  sudo apt-get install docker-ce
+ 1485  docker container run ubuntu:latest /bin/echo 'Hello World!'
+ 1486  docker version
+ 1487  docker system info
+ 1488  docker system df
+ 1489  docker system df -v
+ 1490  ps aux | grep docker
+ 1491  history | grep grep
+ 1492  netstat -plutn
+ 1493  netstat -plutn | grep 22
+ 1494  docker image ls
+ 1495  docker pull nginx
+ 1496  docker container ps
+ 1497  docker container run --name webserver -d -p 159.65.8.38:8011 nginx
+ 1498  docker-machine ls
+ 1499  docker ls
+ 1500  docker-machine default
+ 1501  docker-machine ip default
+ 1502  docker container run --name webserver -ip -p 159.65.8.38 8011:8011 nginx
+ 1503  docker container run --name webserver -d -ip 159.65.8.38:8011 nginx
+ 1504  docker ps -a
+ 1505  docker login
+ 1506  ls -la
+ 1507  ls -lvrn
+ 1508  ls -lvrm
+ 1509  ls -la | less
+ 1510  cd .docker
+ 1511  ls
+ 1512  vim config.json
+ 1513  docker search ansible
+ 1514  cd ..
+ 1515  history | grep mysql
+ 1516  history
+ 1517  history | less
+ 1518  su - nandha
+ 1519  cd /var/lib/mysql
+ 1520  ls
+ 1521  cd sensors
+ 1522  ls
+ 1523  cd ..
+ 1524  ls
+ 1525  cd mysql
+ 1526  ls
+ 1527  systemctl start mariadb
+ 1528  journalctl -xe
+ 1529  apt-get update
+ 1530  conda deactivate
+ 1531  apt-get update
+ 1532  docker version
+ 1533  su - ajay
+ 1534  dpkf --list
+ 1535  dpkg --list
+ 1536  dpkg --list | less
+ 1537  apt-get remove docker docker-engine docker.io containerd runc
+ 1538  su - ajay
+ 1539  apt-get update
+ 1540  sudo -i
+ 1541  tmux a -t root
+ 1542  tmux ls
+ 1543  exit
+ 1544  conda deactivate
+ 1545  w
+ 1546  su - nandah
+ 1547  su - nandha
+ 1548  clear
+ 1549  docker run hello-world
+ 1550  su - ajay
+ 1551  passwd ajay
+ 1552  su - ajay
+ 1553  cd /home/ajay/repos
+ 1554  ls
+ 1555  cd laith
+ 1556  git init
+ 1557  vim .git/config
+ 1558  git config --global user.email
+ 1559  vim action.php
+ 1560  vim ~/.vimrc
+ 1561  vim action.php
+ 1562  git remote add origin git@github.com/aiegoo/laith2
+ 1563  git adds "first commit with all the files, compare it with laith repo"
+ 1564  jobs
+ 1565  fg
+ 1566  count &
+ 1567  jobs
+ 1568  fg
+ 1569  git status
+ 1570  git add .
+ 1571  git add action.php
+ 1572  git add client_secret.json 
+ 1573  git add composer.json 
+ 1574  git add composer.lock
+ 1575  git add dbconnect.php 
+ 1576  git add index.php 
+ 1577  git add memcached.php 
+ 1578  git add view-urls.*
+ 1579  git add view-video.php 
+ 1580  git add ystemctl status httpd
+ 1581  git status
+ 1582  git add .
+ 1583  git add action.php~
+ 1584  git status
+ 1585  cd vendor/
+ 1586  ls
+ 1587  cd ..
+ 1588  git commit -m "first commit with root files"
+ 1589  git push - origin master
+ 1590  git push origin master
+ 1591  git remote show origin
+ 1592  cat ~/.ssh/id_rsa.pub
+ 1593  cat .git/config
+ 1594  vim .git/config
+ 1595  git remote show origin
+ 1596  git push -u origin master
+ 1597  git status
+ 1598  git add .
+ 1599  cd vendor
+ 1600  git add vendor
+ 1601  cd ..
+ 1602  git add vendor
+ 1603  cd add vendor/**
+ 1604  cd vendor
+ 1605  git add *.*
+ 1606  ls
+ 1607  cd ..
+ 1608  ls
+ 1609  git status
+ 1610  git add .
+ 1611  git status
+ 1612  git commit -m "add folders including vendor"
+ 1613  git push -u origin master
+ 1614  git status
+ 1615  cd ..
+ 1616  ls
+ 1617  cd ajay
+ 1618  ls
+ 1619  cd ../mosa
+ 1620  ls
+ 1621  vim readme.md
+ 1622  cat readme.md
+ 1623  docker build -t word2vec
+ 1624  docker build word2vec
+ 1625  ls
+ 1626  cat requirements.txt
+ 1627  cd ..
+ 1628  ls
+ 1629  cd laith
+ 1630  ls
+ 1631  cd ..
+ 1632  vim ~/.vimrc
+ 1633  dpkg --list
+ 1634  dpkg --list | less
+ 1635  du -sh /var/cache/apt
+ 1636  apt-get clean
+ 1637  du -sh /var/cache/apt
+ 1638  cd ..
+ 1639  du -ah
+ 1640  du -sh
+ 1641  base=https://github.com/docker/machine/releases/download/v0.16.0 &&   curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine &&   sudo mv /tmp/docker-machine /usr/local/bin/docker-machine &&   chmod +x /usr/local/bin/docker-machine
+ 1642  docker-machine version
+ 1643  curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+ 1644  jobs
+ 1645  jobs %1
+ 1646  fg %1
+ 1647  htop
+ 1648  exit
+ 1649  su - nandha
+ 1650  su - ajay
+ 1651  usermod -aG docker nandha
+ 1652  su - ajay
+ 1653  su - nandha
+ 1654  exit
+ 1655  su - ajay
+ 1656  w
+ 1657  exit
+ 1658  conda deactivate
+ 1659  htop
+ 1660  du -sh
+ 1661  ls -lv
+ 1662  du .
+ 1663  du -h
+ 1664  tx sitevenv
+ 1665  clear
+ 1666  conda deactivate
+ 1667  su - lightup
+ 1668  tail -f nohup.out
+ 1669  conda deactivate
+ 1670  fg
+ 1671  docker container exec ubutun /bin/bash
+ 1672  docker container exec ubuntu /bin/bash
+ 1673  docker container exec ubuntu ls
+ 1674  exit
+ 1675  clear
+ 1676  conda deactivate
+ 1677  docker ps
+ 1678  ps aux
+ 1679  ps aux | less
+ 1680  su - nandha
+ 1681  clear
+ 1682  conda deactivate
+ 1683  ls -la
+ 1684  ls -la | less
+ 1685  cd .docker
+ 1686  ls
+ 1687  cd ..
+ 1688  scp .docker /home/${USER}/.
+ 1689  scp -r .docker /home/${USER}/.
+ 1690  scp -r .docker /home/nandha/.
+ 1691  cd .docker/
+ 1692  ls
+ 1693  su - nandha
+ 1694  passwd nandha
+ 1695  conda deactivate
+ 1696  gvfs-tree -h
+ 1697  passwd nandha
+ 1698  su - nandha
+ 1699  su - nandha
+ 1700  conda deactivate
+ 1701  w
+ 1702  tmux a -t nandha
+ 1703  su - nandha
+ 1704  conda deactivate
+ 1705  docker all
+ 1706  docker ls
+ 1707  docker ps
+ 1708  apt-get clean
+ 1709  htop
+ 1710  su - nandha
+ 1711  exit
+ 1712  conda deactivate
+ 1713  su - ajay
+ 1714  conda deactivate
+ 1715  su - nandha
+ 1716  mv /home/nandha/.ssh/authorized_keys /home/nandha/.ssh/authorized_old_keys
+ 1717  scp .ssh/** /home/nandha/.shh/.
+ 1718  scp .ssh/** /home/nandha/.ssh/.
+ 1719  su - nandhah
+ 1720  su - nandha
+ 1721  ls -lavn
+ 1722  ls -lavh
+ 1723  ls -lvn
+ 1724  ls -lah
+ 1725  ls -lav
+ 1726  cat .gitconfig
+ 1727  scp .gitconfig /home/nandha/.
+ 1728  su - nandha
+ 1729  passwd nandha
+ 1730  w
+ 1731  su - nandha
+ 1732  conda deactivate
+ 1733  su - ajay
+ 1734  conda deactivate
+ 1735  cd /etc/docker
+ 1736  ls
+ 1737  cd /home/nandha
+ 1738  ls
+ 1739  su - nandha
+ 1740  conda deactivate
+ 1741  ls
+ 1742  cd docker
+ 1743  ls
+ 1744  # so what's going on?
+ 1745  exit
+ 1746  conda deactivate
+ 1747  su - nandha
+ 1748  cd docker
+ 1749  ls
+ 1750  pwd
+ 1751  chgrp sudo docker
+ 1752  cd ..
+ 1753  chgrp sudo docker
+ 1754  chmod g=rwx,o=rx docker
+ 1755  vim +CtrlP
+ 1756  source /root/repos/SiteVenv/bin/activate
+ 1757  tail -f /proc/11114/fd/1
+ 1758  tail -f /proc/11114/fd/1
+ 1759  tail -f nohup.out
+ 1760  cd /root/repos/SiteVenv
+ 1761  source /root/repos/SiteVenv/bin/activate && python server.py runserver 159.65.8.38:10055
+ 1762  jobs
+ 1763  tx ls
+ 1764  tmux ls
+ 1765  conda deactivate
+ 1766  tx ls
+ 1767  tmux ls
+ 1768  tmux a -t root
+ 1769  vim +CtrlP
+ 1770  exit
+ 1771  tail -f /proc/11114/fd/1
+ 1772  exit
+ 1773  source /root/repos/SiteVenv/bin/activate
+ 1774  exit
+ 1775  cleacr
+ 1776  conda decaclteiavatre
+ 1777  conda deactivate
+ 1778  su - nandha
+ 1779  tx ls
+ 1780  tmux ls
+ 1781  su - nandha
+ 1782  cd /home/nandha/repos
+ 1783  exit
+ 1784  conda deactivate
+ 1785  tmux ls
+ 1786  su - nandha
+ 1787  cd ~/repos/lightup/ && vim +CtrlP
+ 1788  cd ~/repos/lightup/css/
+ 1789  vim && tmux ls run-shell -t 2 "make"
+ 1790  lsof
+ 1791  iostat -t
+ 1792  netstat
+ 1793  vim
+ 1794  tail -f nohup.out
+ 1795  cd /root/repos/lightup
+ 1796  top
+ 1797  uptime
+ 1798  whoami
+ 1799  conda activate udemy  && python manage.py runserver 159.65.8.38:10088
+ 1800  ls
+ 1801  vim index.html
+ 1802  conda deactivate
+ 1803  tmux ls
+ 1804  tx ls
+ 1805  tx lightup
+ 1806  vim .config/tmuxinator/udemy.yml
+ 1807  vim .config/tmuxinator/lightup.yml
+ 1808  cd home
+ 1809  cd /home
+ 1810  ls
+ 1811  cd lightup
+ 1812  ls
+ 1813  cd repos
+ 1814  ls
+ 1815  cd olora-pawan
+ 1816  ls
+ 1817  cd sandbox
+ 1818  ls
+ 1819  python manage.py runserver 159.65.8.38:10088
+ 1820  ls
+ 1821  source venv3/bin/activate
+ 1822  python manage.py runserver 159.65.8.38:10088
+ 1823  pwd
+ 1824  cd ~
+ 1825  vim .config/tmuxinator/lightup.yml
+ 1826  tx lightup
+ 1827  conda deactivate 
+ 1828  su - nandha
+ 1829  exit
+ 1830  conda deactivate
+ 1831  clear
+ 1832  docker ps
+ 1833  su - nandha
+ 1834  tx ls
+ 1835  tx sitevenv
+ 1836  tx ls
+ 1837  tx sitevenv
+ 1838  su - nandha
+ 1839  passwd cultasset
+ 1840  exit
+ 1841  w
+ 1842  passwd nandha
+ 1843  conda deactivate
+ 1844  jobs
+ 1845  history
+ 1846  su - nandha
+ 1847  su - nandha
+ 1848  conda deactvate
+ 1849  conda deactivate
+ 1850  password nandha
+ 1851  passwd nandha
+ 1852  ssh nandha@159.65.8.38
+ 1853  #  on your pc.. this is my pc
+ 1854  cd /home/share
+ 1855  ls
+ 1856  cd cultasset
+ 1857  ls
+ 1858  cd ~/repos
+ 1859  ls
+ 1860  cd ..
+ 1861  ls
+ 1862  cd downloads
+ 1863  ls
+ 1864  cd downloads
+ 1865  ls
+ 1866  cd ..
+ 1867  ls
+ 1868  cat 119.zip
+ 1869  ls
+ 1870  cd Contents
+ 1871  ls
+ 1872  cd ..
+ 1873  su - lightup
+ 1874  ls
+ 1875  cd w2v
+ 1876  ls
+ 1877  ls -la
+ 1878  cat .git/config
+ 1879  git remote -v
+ 1880  git status
+ 1881  git lg -n5
+ 1882  ls
+ 1883  cat main.py
+ 1884  ls
+ 1885  git remote -v
+ 1886  git remote add origin git@github.com:aiegoo/ajay.git
+ 1887  git push -u origin master
+ 1888  su - nandha
+ 1889  exit
+ 1890  su - cultasset
+ 1891  conda deactivate
+ 1892  tmux ls
+ 1893  tmux a -t config
+ 1894  tmux a -t root
+ 1895  passwd ajay
+ 1896  su - ajay
+ 1897  cat /etc/passwd
+ 1898  passwd ajay
+ 1899  groups cultasset
+ 1900  groups nandha
+ 1901  usermod -a -G docker cultasset
+ 1902  usermod -a -G django-integration cultasset
+ 1903  groups cultasset
+ 1904  su - cultasset
+ 1905  conda deactivate
+ 1906  df
+ 1907  df --total
+ 1908  top
+ 1909  su - nandha
+ 1910  cd /root/downloads/downloads/slave
+ 1911  ssh root@13.209.26.227 && cd ~/repos/
+ 1912  exit
+ 1913  cd ~/repos
+ 1914  exit
+ 1915  python3 slave.py
+ 1916  exit
+ 1917  tail -f /proc/11114/fd/1
+ 1918  tail -f nohup.out
+ 1919  exit
+ 1920  tx ls
+ 1921  tx stage1
+ 1922  su - ajay
+ 1923  cd /home/ajay/repos/laith
+ 1924  git commit -m "add history text"
+ 1925  git p
+ 1926  su - ajay
+ 1927  passwd ajay
+ 1928  tx ls
+ 1929  su - ajay
+ 1930  usermod -a -G django-integration ajay
+ 1931  groups ajay
+ 1932  su - ajay
+ 1933  whomami
+ 1934  clear
+ 1935  whoami
+ 1936  su - nandha
+ 1937  cd /root/repos/SiteVenv
+ 1938  source /root/repos/SiteVenv/bin/activate && python server.py runserver 159.65.8.38:10055
+ 1939  vim +CtrlP
+ 1940  netstat -tulpn
+ 1941  bundle exec rails s
+ 1942  tail -f log/development.log
+ 1943  ssh root@13.209.26.227 && cd ~/repos && vim +CtrlP
+ 1944  whoami
+ 1945  su - nandha
+ 1946  tx sitevenv
+ 1947  exit
+ 1948  ssh nandha@159.65.8.38
+ 1949  passwd nandha
+ 1950  exit
+ 1951  conda deactivate
+ 1952  su - nandha
+ 1953  cat /etc/passwd
+ 1954  su - ahmed
+ 1955  conda deactivate
+ 1956  ssh root@159.65.8.44
+ 1957  exit
+ 1958  conda deactivate
+ 1959  ssh-copy-id -i ~/.ssh/id_rsa.pub ubuntu@18.234.129.206
+ 1960  vim /etc/ssh/sshd_config
+ 1961  exit
+ 1962  whoami
+ 1963  exit
+ 1964  conda deactivate
+ 1965  ssh-copy-id -i ~/.ssh/id_rsa.pub ubuntu@18.234.129.206
+ 1966  ssh ubuntu@18.234.129.206
+ 1967  ftp
+ 1968  ftp root@159.65.8.38
+ 1969  ls
+ 1970  ssh-copy-id -i ~/.ssh/docker.pem ubuntu@18.234.129.206
+ 1971  ssh-copy-id -i "~/.ssh/docker.pem" ubuntu@18.234.129.206
+ 1972  ssh -i "docker.pem" ubuntu@18.234.129.206
+ 1973  ssh -i "~/.ssh/docker.pem" ubuntu@18.234.129.206
+ 1974  ssh-copy-id -i ~/.ssh/id_rsa.pub ubuntu@18.234.129.206
+ 1975  ssh-copy-id -i ~/.ssh/id_rsa.pub ubuntu@18.234.129.206 -vvvv
+ 1976  ssh -i "~/.ssh/docker.pem" ubuntu@18.234.129.206
+ 1977  ssh-keyscan
+ 1978  ssh-copy-id -i ~/.ssh/id_rsa.pub root@18.234.129.206
+ 1979  exit
+ 1980  ssh -i "docker1.pem" ubuntu@ec2-54-180-102-96.ap-northeast-2.compute.amazonaws.com
+ 1981  ssh root@18.234.129.206
+ 1982  ssh-keygen -R 18.234.129.206
+ 1983  ssh root@18.234.129.206
+ 1984  ssh-copy-id -i ~/.ssh/id_rsa.pub root@18.234.129.206
+ 1985  ssh-copy-id -i ~/.ssh/id_rsa.pub root@54.180.102.96
+ 1986  ssh-copy-id -i ~/.ssh/id_rsa.pub ubuntu@54.180.102.96
+ 1987  ssh -i "docker.pem" ubuntu@54.180.102.96
+ 1988  ssh -i "~/.ssh/docker.pem" ubuntu@54.180.102.96
+ 1989  conda deactivate
+ 1990  ssh -i "~/.ssh/docker.pem" ubuntu@54.180.102.96
+ 1991  ssh-copy-id -i ~/.ssh/id_rsa.pub root@54.180.102.96
+ 1992  ssh root@54.180.102.96
+ 1993  ssh root@18.234.129.206
+ 1994  ssh-copy-id -i ~/.ssh/id_rsa.pub root@18.234.129.206
+ 1995  ssh root@19.234.129.206
+ 1996  ssh root@18.234.129.206
+ 1997  whoami
+ 1998  vim /etc/ssh/sshd_config
+ 1999  conda deactivate
+ 2000  cd repos/rapa/node-dockerapp
+ 2001  cd ..
+ 2002  ls
+ 2003  cd node-dockerapp/
+ 2004  ls
+ 2005  cd ../
+ 2006  mkdir node-dockerapp1
+ 2007  scp node-dockerapp/Dockerfile node-dockerapp1/.
+ 2008  cd node-dockerapp1
+ 2009  ls
+ 2010  docker build .
+ 2011  ls
+ 2012  cd ..
+ 2013  rm -rf node-dockerapp
+ 2014  mv node-dockerapp1 node-dockerapp
+ 2015  ls
+ 2016  cd node-dockerapp/
+ 2017  ls
+ 2018  docker build .
+ 2019  ls
+ 2020  ls -la
+ 2021  ls
+ 2022  docker images ls
+ 2023  cd ..
+ 2024  ls
+ 2025  mkdir was && cd was
+ 2026  mpm init
+ 2027  npm init
+ 2028  npm install express --save
+ 2029  tee index.js
+ 2030  cat index.js 
+ 2031  vim index.js
+ 2032  node index.js
+ 2033  vim Dockerfile
+ 2034  docker build -t node-server .
+ 2035  vim Dockerfile
+ 2036  vim Dockerfile 
+ 2037  docker build -t node-server .
+ 2038  docker run -d --name nodongo -p 3000:3000 node-server
+ 2039  docker tag node-server aiegoo/nodejs-starter:1.0
+ 2040  docker push aiegoo/nodejs-starter:1.o
+ 2041  docker push aiegoo/nodejs-starter:1.0
+ 2042  sudo apt update
+ 2043  cd ..
+ 2044  ls
+ 2045  cd node-dockerapp/
+ 2046  ls
+ 2047  #here's docker file
+ 2048  vim Dockerfile
+ 2049  ls
+ 2050  docker im ls
+ 2051  docker image ls
+ 2052  vim Dockerfile
+ 2053  # is nodejs-starter the image?
+ 2054  # no that's different .. I tried another approach.. which I am still doing it.. but the one I showed you.. I need to know what got wrong
+ 2055  # how did you build the image from the Dockerfile?
+ 2056  docker build -t .
+ 2057  docker build .
+ 2058  copy part
+ 2059  # you o not have a mp-app directory in the current directory
+ 2060  mkdir my-app api
+ 2061  ## in your home-pc, you must have the source directories along with the required files inside them
+ 2062  # here, you only have the Dockerfile
+ 2063  ls .
+ 2064  docker build .
+ 2065  # the directories are empty
+ 2066  # there is nothing to build or install
+ 2067  # wait.. I did first cloned it.. and same error.. so removed them later to build from the docker file... let me clone it again
+ 2068  rm -rf api my-app
+ 2069  cd ..
+ 2070  rm -rf node-dockerapp
+ 2071  git clone https://github.com/aiegoo/node-dockerapp
+ 2072  cd node-dockerapp/
+ 2073  ls
+ 2074  docker build .
+ 2075  # it's done
+ 2076  cd api
+ 2077  npm install
+ 2078  npm start
+ 2079  # let me continue
+ 2080  cd ../my-app/
+ 2081  # should I npm install here again?
+ 2082  # it's not required if you plan to run the app in the docker image
+ 2083  ls
+ 2084  vim README.md 
+ 2085  npm start
+ 2086  # not working
+ 2087  docker image ls
+ 2088  ..
+ 2089  docker tag d4cb20380391 custom/node-image:katest
+ 2090  docker image tag d4cb20380391 custom/node-image:katest
+ 2091  docker image tag d4cb20380391 custom/node-image:latest
+ 2092  # yeah I wasn't sure what port your app was running on
+ 2093  docker run -itd -p 52001:3030 custom/node-app:latest
+ 2094  docker run -itd -p 52001:3030 custom/node-image:latest
+ 2095  docker ps
+ 2096  # check in browser
+ 2097  cd ../api
+ 2098  ls
+ 2099  # not here?
+ 2100  # what isn't?
+ 2101  cd ..
+ 2102  vim Dockerfile 
+ 2103  # you don't have any volumes configured so you don't need to worry about that
+ 2104  # wait
+ 2105  # incorrect port on the browser,  i think?
+ 2106  # how did you know?
+ 2107  ssh root@52.231.202.152
+ 2108  ssh aiegoo@52.231.202.152
+ 2109  # wrong address
+ 2110  ssh root@18.234.129.206
+ 2111  docker ps -a
+ 2112  # this word2ve has been a long long time ago project
+ 2113  # i don't know how it repalced every other docker containers I had
+ 2114  # replaced? did you run docker run multiple times when deploying it? that can happen if you don't name your dcontainers. they assume an arbitrary name.
+ 2115  # never run with the w2vec..
+ 2116  # it was a job by another freelancer laste year..
+ 2117  # but you saw and know that I have plenty of containsers running here.. Onlty thhing I did is to restart the server.. and it got so slow.
+ 2118  # for example, tonyleekorea wp pages, drupal.. they are all gone
+ 2119  docker iamges ls
+ 2120  docker images ls
+ 2121  # did you run those wp, drupal containers with --rm ?
+ 2122  # naos in: ndoockerp reun 
+ 2123  -
+ 2124  # as I said.. i didn't run any docker command.
+ 2125  # I was busy with other servers.. setting up
+ 2126  # I see. well, there seems to be no way to recover those as snapshots didn't work, right?
+ 2127  # I have to revisit every steps I had followed to set it up
+ 2128  # that's something I don't have time for
+ 2129  # I suspect you were the one who played a part in it
+ 2130  # in what?
+ 2131  # i told you
+ 2132  history
+ 2133  history >> history.txt

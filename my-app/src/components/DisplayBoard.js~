@@ -4,7 +4,7 @@ export const DisplayBoard = ({numberOfUsers, getAllUsers}) => {
     
     return(
         <div className="display-board">
-            <h4>Number of users created</h4>
+            <h4>Users Created</h4>
             <div className="number">
             {numberOfUsers}
             </div>
